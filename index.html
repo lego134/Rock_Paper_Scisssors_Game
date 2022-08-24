@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock Paper Scisssors Game</title>
+</head>
+<body>
+    <h1>Rock Paper Scisssors</h1>
+    <div class="background">
+        <h2 class="Round">Round 1</h2>
+        <div class="display_button">
+            <div class="button_Choice" >
+                <button class="rpsButton" value="Rock"><img src="/pexels-peter-döpper-2364232.jpg" alt="Rock"></button>
+            </div>
+            <div class="button_Choice" >
+                <button class="rpsButton" value="Paper"><img src="/pexels-iconcom-479444.jpg" alt="Papper"></button>
+            </div>
+            <div class="button_Choice">
+                <button class="rpsButton" value="Scisssors" ><img src="/pexels-karolina-grabowska-4226901.jpg" alt=""></button>
+            </div>
+        </div>
+        <div class="display_choice">
+            <h2>User Choice:</h2>
+            <p class="User_choice">Paper</p>
+            <p class="VS">VS</p>
+            <h2>Computer Choice:</h2>
+            <p class="Computer_choice">Rock</p>
+        </div>
+        <div class="score_panel">
+        <h2 class="User">User Score:</h2>
+        <p id="User_score">0</p>
+        <h2 class="Computer_Score">Computer Score:</h2>
+        <p id="Computer_score">0</p>
+        </div>
+        <button class="start" onclick="start()">Start</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

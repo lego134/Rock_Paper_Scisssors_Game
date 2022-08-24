@@ -1,0 +1,76 @@
+img{
+    height:  150px;
+    width: 150px;
+    object-fit: contain;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.button_Choice{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    border: 5px solid black;
+}
+.button_Choice:hover{
+    box-shadow: 5px 5px green;
+}
+h1{
+    text-align: center;
+}
+.score_panel{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 58%;
+    padding: 5px;
+    
+}
+h2{
+    padding: 15px;
+}
+p{
+    display: inline-block;
+    font-size: 28px;
+}
+.display_choice{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 53%;
+    padding: 5px;
+    
+}
+.VS{
+    font-size: 28px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.Round{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 5%;
+    padding: 5px;
+}
+.display_button{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 13%;
+    padding: 5px;
+}
+.start{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    justify-content: center;
+    bottom: 48%;
+    padding: 5px;
+    border: 5px black solid;
+    background-color: white;
+    color: black
+}
