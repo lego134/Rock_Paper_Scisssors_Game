@@ -74,3 +74,88 @@ p{
     background-color: white;
     color: black
 }
+@media all and (max-width: 768px){
+    img{
+        height:  120px;
+        width: 120px;
+        object-fit: contain;
+    }
+    .background{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    .button_Choice{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5px;
+        border: 5px solid black;
+    }
+    .button_Choice:hover{
+        box-shadow: 5px 5px green;
+    }
+    h1{
+        text-align: center;
+    }
+    .score_panel{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        bottom: 18%;
+        padding: 5px;
+        
+    }
+    h2{
+        padding: 15px;
+        font-size: 20px;
+    }
+    p{
+        display: inline-block;
+        font-size: 28px;
+    }
+    .Computer_choice{
+        font-size: 20px;
+    }
+    .display_choice{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        bottom: 33%;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .VS{
+        font-size: 28px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }
+    .User_choice{
+        font-size: 20px;
+    }
+    .Round{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 7%;
+        padding: 5px;
+    }
+    .display_button{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 23%;
+        padding: 5px;
+    }
+    .start{
+        display: flex;
+        position: absolute;
+        font-size: 25px;
+        justify-content: center;
+        bottom: 8%;
+        padding: 5px;
+        border: 5px black solid;
+        background-color: white;
+        color: black
+    }
+}
