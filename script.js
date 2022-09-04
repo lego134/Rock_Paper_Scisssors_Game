@@ -4,19 +4,26 @@ let computerEl = document.querySelector('.Computer_choice');
 let RoundEl = document.querySelector(".Round");
 let Score_user = document.querySelector("#User_score");
 let Score_Computer = document.querySelector("#Computer_score");
-let Score_Computer2 = -1;
-let Score_user2 = -1;
+let Score_Computer2 = 0;
+let Score_user2 = 0;
 let currentRoundNumber = 1;
-const start = () => { 
-  rpsBtn[0].onclick = () =>{
-    display_user_choice.innerText = rpsBtn[0].value;
-  }
-  rpsBtn[1].onclick = () =>{
-    display_user_choice.innerText = rpsBtn[1].value;
-  }
-  rpsBtn[2].onclick = () =>{
-    display_user_choice.innerText = rpsBtn[2].value;
-  }
+
+
+rpsBtn[0].onclick = () =>{
+  display_user_choice.innerText = rpsBtn[0].value;
+}
+rpsBtn[1].onclick = () =>{
+  display_user_choice.innerText = rpsBtn[1].value;
+}
+rpsBtn[2].onclick = () =>{
+  display_user_choice.innerText = rpsBtn[2].value;
+}   
+   
+  
+    const start = () => { 
+     
+
+      
     let ComputerArrey = ['Rock','Paper','Scissors'];
  
   let computerGuess = ComputerArrey[Math.floor(Math.random() * ComputerArrey.length)];
@@ -76,5 +83,5 @@ const start = () => {
         RoundEl.innerText = "Round: " + currentRoundNumber++;
       }
       advanceRound()
-}
-start()
+  
+    }
